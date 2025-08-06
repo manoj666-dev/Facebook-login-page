@@ -1,4 +1,4 @@
-# Facebook Login Page Clone
+## Facebook Login Page Clone
 
 This project is a simple clone of the **Facebook Login Page** built using HTML, CSS and js.  
 It is designed for educational purposes to practice front-end development skills such as layout design, responsive styling, and form creation.
