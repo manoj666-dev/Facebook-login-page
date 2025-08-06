@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>facebook Login page </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://www.facebook.com/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <h1><b>facebook</b></h1>
+    <p>Facebook helps you connect and share with the people in your life.</p>
+    <form action="/submit.php">
+        <div>
+            <label for="ph"></label>
+            <input id="ph" type="tel" placeholder="Enter phone number" required></label>
+        </div>
+
+        <div>
+            <label for="pass"></label>
+            <input id="pass" type="password" placeholder="Enter password" required></label>
+        </div>
+        
+        <div>
+            <button class="Login"><b>Login</b></button>
+            <script>
+                document.querySelector('.Login').addEventListener('click', function (event) {
+                    event.preventDefault();
+                    window.location.href = "https://www.facebook.com"
+                });
+            </script>
+        </div>
+        <div>
+            <a href="https://www.facebook.com/recover/initiate/?ars=facebook_login">Forgotten password </a>
+        </div>
+        <div>
+            <hr style="border: 1.5px solid #ebebeb;">
+        </div>
+
+        <div>
+            <button class="CreateAccount"><b>Create New Account</b></button>
+            <script>
+                document.querySelector('.CreateAccount').addEventListener('click', function (event) {
+                    event.preventDefault();
+                    window.location.href = "https://www.facebook.com/reg/";
+                });
+            </script>
+        </div>
+    </form>
+
+</body>
+
+</html>
